@@ -8,8 +8,10 @@ import java.net.URL;
 
 public class DockerWithChrome {
     public static void main(String[] args) throws MalformedURLException {
+//        DesiredCapabilities dc = new DesiredCapabilities();
+//        dc.setBrowserName("chrome");
         DesiredCapabilities dc = new DesiredCapabilities();
-        dc.setBrowserName("chrome");
+        dc.setBrowserName("firefox");
 
         URL url = new URL("http://localhost:4444/");
 
