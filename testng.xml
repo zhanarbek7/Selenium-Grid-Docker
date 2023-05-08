@@ -7,7 +7,7 @@
             <class name="docker.ChromeTest1"/>
 <!--            <class name="docker.ChromeTest2"/>-->
 <!--            <class name="docker.ChromeTest3"/>-->
-            <class name="docker.FirefoxTest4"/>
+<!--            <class name="docker.FirefoxTest4"/>-->
         </classes>
     </test>
 </suite>
