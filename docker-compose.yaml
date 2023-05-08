@@ -5,6 +5,8 @@ version: "3"
 services:
   chrome:
     image: selenium/node-chrome:latest
+    platform: linux/amd64
+    # container_name : chrome
     shm_size: 2gb
     depends_on:
       - selenium-hub
@@ -15,6 +17,8 @@ services:
 
   firefox:
     image: selenium/node-firefox:latest
+    platform: linux/amd64
+    container_name : firefox
     shm_size: 2gb
     depends_on:
       - selenium-hub
@@ -25,6 +29,7 @@ services:
 
   selenium-hub:
     image: selenium/hub:latest
+    platform: linux/amd64
     container_name: selenium-hub
     ports:
       - "4442:4442"
