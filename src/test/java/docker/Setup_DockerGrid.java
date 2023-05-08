@@ -38,8 +38,8 @@ public class Setup_DockerGrid {
                 System.out.println("Script execution failed");
             }
             // it closes all terminals and iTerms
-            Runtime.getRuntime().exec("pkill Terminal");
-            Runtime.getRuntime().exec("pkill pkill iTerm");
+//            Runtime.getRuntime().exec("pkill Terminal");
+//            Runtime.getRuntime().exec("pkill pkill iTerm");
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
